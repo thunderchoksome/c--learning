@@ -12,11 +12,11 @@ int main()
 	int k;
 	char m[200];
 	char d[200];
-	cout << "ÇëÊäÈëÃ÷ÎÄ" << endl;
+	cout << "è¯·è¾“å…¥æ˜æ–‡" << endl;
     
 	scanf ("%[^\n]]",m);
 	
-	cout << "ÇëÊäÈëkÖµ" << endl;
+	cout << "è¯·è¾“å…¥kå€¼" << endl;
 	cin >> k;
 	
 	
@@ -29,7 +29,7 @@ int main()
 		{
 		    d[i] = k+m[i];
 		}
-	cout << "ÃÜÎÄÊä³ö" << endl;
+	cout << "å¯†æ–‡è¾“å‡º" << endl;
 	
 	
 	for (int i = 0; i<n; i++)
@@ -39,7 +39,7 @@ int main()
 	}
 	cout << endl;
 	
-	cout << "¼ÓÃÜÇ°Ã÷ÎÄ" << endl;
+	cout << "åŠ å¯†å‰æ˜æ–‡" << endl;
 	
 	for (int i = 0; i<n; i++)
 	{
